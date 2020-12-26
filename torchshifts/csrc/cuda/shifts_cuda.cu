@@ -1,8 +1,7 @@
 #ifndef _SHIFTS_CUDA
 #define _SHIFTS_CUDA
 
-
-#include "shifts_cuda.h"
+// include std
 #include <ATen/cuda/CUDAContext.h>
 #include <c10/cuda/CUDAGuard.h>
 #include <c10/cuda/CUDAException.h>
@@ -12,6 +11,8 @@
 #include <ATen/cuda/detail/KernelUtils.h>
 #include <c10/macros/Macros.h>
 
+// include own header files
+#include "shifts_cuda.h"
 
 
 using namespace at::cuda::detail;
